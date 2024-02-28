@@ -1,5 +1,5 @@
 import 'package:code_generating_json/automatic%20models/company_contact.dart';
-import 'package:code_generating_json/models/automatic/employee.dart';
+import 'package:code_generating_json/automatic%20models/employee.dart';
 import 'package:json_annotation/json_annotation.dart';
 
 part 'company_info.g.dart';

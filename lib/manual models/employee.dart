@@ -1,24 +1,24 @@
 import 'dart:convert';
 
-Employee employeeFromJson(String str) => Employee.fromJson(jsonDecode(str));
+Employee2 employeeFromJson(String str) => Employee2.fromJson(jsonDecode(str));
 
-String employeeToJson(Employee employee) => json.encode(employee.toJson());
+String employeeToJson(Employee2 employee) => json.encode(employee.toJson());
 
-class Employee {
+class Employee2 {
   int? id;
   String? name;
   String? address;
   String? designation;
 
-  Employee({
+  Employee2({
     this.id,
     this.name,
     this.address,
     this.designation,
   });
 
-  factory Employee.fromJson(Map<String, dynamic> json) {
-    return Employee(
+  factory Employee2.fromJson(Map<String, dynamic> json) {
+    return Employee2(
       id: json['id'],
       name: json['name'],
       address: json['address'],
